@@ -9,6 +9,9 @@ static void searchBook(String keyword) {
         }
     }
 }
+static void removeBook(String title) {
+    books.remove(title);
+}
 
     public static void main(String[] args) {
         System.out.println("Library Tracker")
