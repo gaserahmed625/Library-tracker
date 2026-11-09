@@ -1,6 +1,11 @@
 public class Main {
 
    
+static java.util.List<String> books = new java.util.ArrayList<>();
+
+static void addBook(String title) {
+    books.add(title);
+}
 
     public static void main(String[] args) {
         System.out.println("Library Tracker")
