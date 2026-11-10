@@ -13,7 +13,7 @@ static void listBooks() {
     }
 
     public static void main(String[] args) {
-        System.out.println("Library Tracker")
+        System.out.println("=== Library Tracker v1 ===");
         System.out.println("Run with a command: add, list, search, remove");
     }
 }
