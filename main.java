@@ -11,6 +11,10 @@ static void listBooks() {
     for (String b : books) {
         System.out.println("- " + b);
     }
+    // Prints total number of books
+static void countBooks() {
+    System.out.println("Total: " + books.size());
+}
 
     public static void main(String[] args) {
         System.out.println("=== Library Tracker v1 ===");
